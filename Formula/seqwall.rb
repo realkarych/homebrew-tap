@@ -6,10 +6,10 @@ class Seqwall < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/realkarych/seqwall/releases/download/v0.0.1/v0.0.1_seqwall_darwin_arm64.tar.gz"
-      sha256 "cb97675ead3c8c21fa073e72fd75ba060ad3f9a58f44b032aa92e3f38377f380"
+      sha256 "b68d8cfe1919e6b09d7638d7b083d5c40226786852a32a9fb22316eb632885c3"
     else
       url "https://github.com/realkarych/seqwall/releases/download/v0.0.1/v0.0.1_seqwall_darwin_amd64.tar.gz"
-      sha256 "a7c8ae5d68ec2af428c89d32b6b38b94d1a728748d71320821f111a0a38a7cd7"
+      sha256 "86822d82377c0735d88d80f65d5073ad1e60a8b5edcdb3b13c53c0187b35cf8b"
     end
   end
 
