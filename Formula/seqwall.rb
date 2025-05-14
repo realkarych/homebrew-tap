@@ -1,15 +1,15 @@
 class Seqwall < Formula
   desc "Testing tool for PostgreSQL migrations"
   homepage "https://github.com/realkarych/seqwall"
-  version "v0.1.1"
+  version "v0.1.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/realkarych/seqwall/releases/download/v0.1.1/v0.1.1_seqwall_darwin_arm64.tar.gz"
-      sha256 "fbf316b00bf957378bc065779a3f6ac6dade26efd001d95d538fbd612eb53298"
+      url "https://github.com/realkarych/seqwall/releases/download/v0.1.2/v0.1.2_seqwall_darwin_arm64.tar.gz"
+      sha256 "c6a25d3a46c9949b0463f721c4ec314b45c9873847df2d065b586eec39263967"
     else
-      url "https://github.com/realkarych/seqwall/releases/download/v0.1.1/v0.1.1_seqwall_darwin_amd64.tar.gz"
-      sha256 "7ae8e64398f53ba71ff7956c5d0f62e0cf1c1054cbcfda47f13df3c90c8a24ce"
+      url "https://github.com/realkarych/seqwall/releases/download/v0.1.2/v0.1.2_seqwall_darwin_amd64.tar.gz"
+      sha256 "40b5d54ca3b52e80bb2cc63e5d13692032edf2e22cfb62546cd6f92732676665"
     end
   end
 
